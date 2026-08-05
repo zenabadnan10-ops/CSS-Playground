@@ -18,17 +18,11 @@
           <li id="typography-nav">
             <a id="typography-link" href="#typography"> TYPOGRAPHY</a>
           </li>
-          <li id="buttons-nav">
-            <a id="buttons-link" href="#color">BUTTONS</a>
-          </li>
-          <li id="cards-nav">
-            <a id="cards-link" href="#color">CARDS</a>
+          <li id="grid-nav">
+            <a id="grid-link" href="#grid">GRID</a>
           </li>
           <li id="flexbox-nav">
             <a id="flexbox-link" href="#color">FLEXBOX</a>
-          </li>
-          <li id="grid-nav">
-            <a id="grid-link" href="#color">GRID</a>
           </li>
           <li id="animation-nav">
             <a id="animation-link" href="#color">ANIMATION</a>
@@ -63,21 +57,23 @@
           <p id="color-desc">
             See how colors change a User Interface
           </p>
-          <button id="ocean-btn">
+          <div id="color-controls">
+            <button id="ocean-btn">
             <div id="ocean-color">
               <img src="src/assets/images/ocean.png" id="ocean-img" class="color-img">
             </div>
-          </button>
-          <button id="forest-btn">
-            <div id="forest-color">
-              <img src="src/assets/images/forest.png" id="forest-img" class="color-img">
-            </div>
-          </button>
-          <button id="blossom-btn">
-            <div id="blossom-color">
-              <img src="src/assets/images/sakura.png" id="sakura-img" class="color-img">
-            </div>
-          </button>
+            </button>
+            <button id="forest-btn">
+              <div id="forest-color">
+                <img src="src/assets/images/forest.png" id="forest-img" class="color-img">
+              </div>
+            </button>
+            <button id="blossom-btn">
+              <div id="blossom-color">
+                <img src="src/assets/images/sakura.png" id="sakura-img" class="color-img">
+              </div>
+            </button>
+          </div>
           <div id="color-preview">
             <img id="product-img" src="src/assets/images/OIP (23).webp">
             <h3 id="product-name">
@@ -101,7 +97,7 @@
           <p id="typo-desc">
             See how typography affects readability
           </p>
-          <div id="controls">
+          <div id="typo-controls">
             <p id="font-label">Font: </p>
             <select id="font-options">
               <option id="" value=""></option>
@@ -145,6 +141,124 @@
             <p id="typo-preview-desc">
               Every choice you make changes this preview. Experiment with different combinations until you find a style that feels just right.
             </p>
+          </div>
+        </article>
+        <article id="grid">
+          <img src="src/assets/images/pixels.png" id="grid-img" class="feature-img">
+          <h3 id="grid-heading" class="feature-heading">
+            Grid Builder
+          </h3>
+          <p id="grid-desc">
+            See how CSS Grids create responsive galleries
+          </p>
+          <div id="grid-controls">
+            <button id="plus-rows-btn">+</button>
+            <span id="crows">3</span>
+            <button id="minus-rows-btn">-</button>
+            <button id="plus-column-btn">+</button>
+            <span id="columns">3</span>
+            <button id="minus-column-btn">-</button>
+            <button id="plus-gap-btn">+</button>
+            <span id="gap">15px</span>
+            <button id="minus-gap-btn">-</button>
+            <div id="grid-preview">
+              <h2 id="news-name">
+                The Orange Times
+              </h2>
+              <h3 id="news-desc">
+                Fresh News. Fresh Citrus.
+              </h3>
+              <h3 id="featured-heading">
+                Featured Story
+              </h3>
+              <img src="" id="featured-img">
+              <h2 id="featured-name">
+                The Great Orange Harvest Begins
+              </h2>
+              <p id="featured-desc">
+                Farmers celebrate a record-breaking citrus season as orchards across the region produce their sweetest oranges yet.
+              </p>
+              <h3 id="citrus-heading">
+                Citrus Spotlight
+              </h3>
+              <img src="" id="citrus-img">
+              <h2 id="citrus-name">
+                5 Reasons Oranges are a Superfruit
+              </h2>
+              <p id="citrus-desc">
+                Discover why oranges remain one of the healthiest and most popular fruits in the world.
+              </p>
+              <h3 id="juice-heading">
+                Fresh Squeezed
+              </h3>
+              <img src="" id="juice-img">
+              <h2 id="juice-name">
+                Fresh Juice Trends in 2026
+              </h2>
+              <p id="juice-desc">
+                From classic orange juice to sparkling citrus blends, explore the newest refreshing drinks.
+              </p>
+              <h3 id="kitchen-heading">
+                Kitchen Corner
+              </h3>
+              <img src="" id="kitchen-img">
+              <h2 id="kitchen-name">
+                The Orange Cake Everyone is Talking About
+              </h2>
+              <p id="kitchen-desc">
+                Bakers are putting citrus at the center of their newest deserts.
+              </p>
+              <h3 id="orchard-heading">
+                Orchard Watch
+              </h3>
+              <img src="" id="orchard-img">
+              <h2 id="orchard-name">
+                A Walk Through The World's Largest Orange Grove
+              </h2>
+              <p id="orchard-desc">
+                Explore how thousands of orange trees are grown and harvested.
+              </p>
+              <h3 id="vitamin-heading">
+                Vitamin Vault
+              </h3>
+              <img src="" id="vitamin-img">
+              <h2 id="vitamin-name">
+                One Orange, Countless Benefits
+              </h2>
+              <p id="vitamin-desc">
+                Learn how Vitamin C and antioxidants make oranges a nutritional powerhouse.
+              </p>
+              <h3 id="festival-heading">
+                Festival Square
+              </h3>
+              <img src="" id="festival-img">
+              <h2 id="festival-name">
+                The Annual Orange Festival Returns
+              </h2>
+              <p id="festival-desc">
+                Music, food, games and everything citrus comes together for a weekend of celebration.
+              </p>
+              <h3 id="odd-heading">
+                Orange Oddities
+              </h3>
+              <img src="" id="odd-img">
+              <h2 id="odd-name">
+                The Color Was Named After The Fruit!
+              </h2>
+              <p id="odd-desc">
+                Discover surprising facts and fun trivia about oranges.
+              </p>
+              <h3 id="globe-heading">
+                Around The Orchard
+              </h3>
+              <img src="" id="globe-img">
+              <h2 id="globe-name">
+                How The World Enjoys Oranges
+              </h2>
+              <p id="globe-desc">
+                From fresh fruit to marmalade, explore citrus traditions from around the globe.
+              </p>
+            </div>
           </div>
         </article>
       </section>
