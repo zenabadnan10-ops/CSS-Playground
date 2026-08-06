@@ -11,7 +11,13 @@
     gap: 10px;
 }
 
-#fourth-row {
+#second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#third-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
