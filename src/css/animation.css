@@ -13,3 +13,63 @@
     align-items: center;
     width: 50%;
 }
+
+#animation-preview {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 80%;
+    margin-top: 20px;
+    border-radius: var(--large-radius);
+    gap: 10px;
+    padding-bottom: 60px;
+}
+
+#space {
+    height: 90%;
+    width: 90%;
+    margin-top: 20px;
+    border-radius: var(--large-radius);
+    position: relative;
+    margin-bottom: 35px;
+}
+
+#space-img {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    width: 100%;
+    border-radius: var(--large-radius);
+    z-index: 4;
+}
+
+#rocket-div {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
+
+#rocket {
+    width: 80px;
+    height: auto;
+    display: block;
+    z-index: 10;
+}
+
+#launch-btn {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    font-family: var(--main-font);
+    border: 1px solid var(--primary-color);
+    border-radius: var(--circle-radius);
+    font-size: var(--large-text);
+    cursor: pointer;
+    padding: 10px 16px;
+    margin-bottom: -70px;
+}
