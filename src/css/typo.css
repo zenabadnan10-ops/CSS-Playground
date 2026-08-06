@@ -1,10 +1,71 @@
+/* eslint-disable css/no-invalid-properties */
 #typography {
     padding: var(--medium-spacing);
     background-color: var(--muted-text-color);
-    border: 1px solid var(--muted-text-color);
+    border: 5px solid var(--border-color);
     border-radius: var(--medium-radius);
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+#typo-controls {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+#control1, #control2, #control3, #control4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#font-label, #size-label, #weight-label, #spacing-label {
+    font-family: var(--main-font);
+    font-size: 24px;
+    color: var(--border-color);
+    margin-right: 10px;
+}
+
+select {
+    border: none;
+    border-radius: var(--small-radius);
+    font-family: sans-serif;
+    text-align: center;
+    width: 140px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#typo-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: none;
+    border-radius: var(--medium-radius);
+    margin-top: 32px;
+}
+
+#typo-preview-heading {
+    font-family: var(--main-font);
+    margin: 64px;
+    font-size: var(--h3);
+}
+
+#typo-preview-desc {
+    font-family: var(--main-font);
+    margin: 40px;
+    margin-top: 0;
+    font-size: var(--large-text);
+    text-align: center;
 }
