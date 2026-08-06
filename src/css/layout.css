@@ -1,3 +1,4 @@
+/* eslint-disable css/no-invalid-properties */
 #features {
     display: flex;
     flex-direction: column;
