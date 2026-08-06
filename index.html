@@ -6,9 +6,15 @@
     <link rel="stylesheet" href="./src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <title>CSS Playground</title>
   </head>
@@ -170,120 +176,64 @@
         </div>
         <div id="second-row">
           <article id="grid">
-            <img src="src/assets/images/pixels.png" id="grid-img" class="feature-img">
-            <h3 id="grid-heading" class="feature-heading">
-              Grid Builder
-            </h3>
-            <p id="grid-desc">
+            <div class="img-text">
+              <img src="src/assets/images/pixels.png" id="grid-img" class="feature-img">
+              <h3 id="grid-heading" class="feature-heading">
+                Grid Builder
+              </h3>
+            </div>
+            <p id="grid-desc" class="feature-desc">
               See how CSS Grids create responsive galleries
             </p>
-            <div id="grid-controls">
+            <div id="grid-plus">
               <button id="plus-rows-btn">+</button>
-              <span id="crows">3</span>
+              <span id="rows">3</span>
               <button id="minus-rows-btn">-</button>
-              <button id="plus-column-btn">+</button>
-              <span id="columns">3</span>
-              <button id="minus-column-btn">-</button>
-              <button id="plus-gap-btn">+</button>
-              <span id="gap">15px</span>
-              <button id="minus-gap-btn">-</button>
-              <div id="grid-preview">
-                <h2 id="news-name">
-                  The Orange Times
-                </h2>
-                <h3 id="news-desc">
-                  Fresh News. Fresh Citrus.
-                </h3>
-                <h3 id="featured-heading">
-                  Featured Story
-                </h3>
-                <img src="src/assets/images/download (14).webp" id="featured-img">
-                <h2 id="featured-name">
-                  The Great Orange Harvest Begins
-                </h2>
-                <p id="featured-desc">
-                  Farmers celebrate a record-breaking citrus season as orchards across the region produce their sweetest oranges yet.
-                </p>
-                <h3 id="citrus-heading">
-                  Citrus Spotlight
-                </h3>
-                <h2 id="citrus-name">
-                  5 Reasons Oranges are a Superfruit
-                </h2>
-                <p id="citrus-desc">
-                  Discover why oranges remain one of the healthiest and most popular fruits in the world.
-                </p>
-                <h3 id="juice-heading">
-                  Fresh Squeezed
-                </h3>
-                <img src="src/assets/images/OIP (24).webp" id="juice-img">
-                <h2 id="juice-name">
-                  Fresh Juice Trends in 2026
-                </h2>
-                <p id="juice-desc">
-                  From classic orange juice to sparkling citrus blends, explore the newest refreshing drinks.
-                </p>
-                <h3 id="kitchen-heading">
-                  Kitchen Corner
-                </h3>
-                <img src="src/assets/images/download (16).webp" id="kitchen-img">
-                <h2 id="kitchen-name">
-                  The Orange Cake Everyone is Talking About
-                </h2>
-                <p id="kitchen-desc">
-                  Bakers are putting citrus at the center of their newest deserts.
-                </p>
-                <h3 id="orchard-heading">
-                  Orchard Watch
-                </h3>
-                <h2 id="orchard-name">
-                  A Walk Through The World's Largest Orange Grove
-                </h2>
-                <p id="orchard-desc">
-                  Explore how thousands of orange trees are grown and harvested.
-                </p>
-                <h3 id="vitamin-heading">
-                  Vitamin Vault
-                </h3>
-                <h2 id="vitamin-name">
-                  One Orange, Countless Benefits
-                </h2>
-                <p id="vitamin-desc">
-                  Learn how Vitamin C and antioxidants make oranges a nutritional powerhouse.
-                </p>
-                <h3 id="festival-heading">
-                  Festival Square
-                </h3>
-                <h2 id="festival-name">
-                  The Annual Orange Festival Returns
-                </h2>
-                <p id="festival-desc">
-                  Music, food, games and everything citrus comes together for a weekend of celebration.
-                </p>
-                <h3 id="odd-heading">
-                  Orange Oddities
-                </h3>
-                <h2 id="odd-name">
-                  The Color Was Named After The Fruit!
-                </h2>
-                <p id="odd-desc">
-                  Discover surprising facts and fun trivia about oranges.
-                </p>
-                <h3 id="globe-heading">
-                  Around The Orchard
-                </h3>
-                <img src="src/assets/images/download (15).webp" id="globe-img">
-                <h2 id="globe-name">
-                  How The World Enjoys Oranges
-                </h2>
-                <p id="globe-desc">
-                  From fresh fruit to marmalade, explore citrus traditions from around the globe.
-                </p>
+            </div>
+            <div id="grid-minus">
+              <div id="grid-minus-btn">
+                <button id="plus-column-btn">+</button>
+                <span id="columns">3</span>
+                <button id="minus-column-btn">-</button>
+              </div>
+              <div id="horizontal-flex">
+                <div id="grid-preview">
+                  <div class="section">
+                    <img src="src/assets/images/OIP (25).webp">
+                  </div>
+                  <div class="section">
+                    <img src="src/assets/images/OIP (26).webp">
+                  </div>
+                  <div class="section">
+                    <img src="src/assets/images/OIP (27).webp">
+                  </div>
+                  <div class="section">
+                    <img src="src/assets/images/OIP (28).webp">
+                  </div>
+                  <div class="section">
+                    <img src="src/assets/images/OIP (29).webp">
+                  </div>
+                  <div class="section">
+                    <img src="src/assets/images/OIP (30).webp">
+                  </div>
+                  <div class="section">
+                    <img src="src/assets/images/OIP (31).webp">
+                  </div>
+                  <div class="section">
+                    <img src="src/assets/images/download (18).webp">
+                  </div>
+                  <div class="section">
+                    <img src="src/assets/images/download (19).webp">
+                  </div>
+                </div>
+                <div id="grid-gap-btn">
+                  <button id="plus-gap-btn">+</button>
+                  <span id="gap">1px</span>
+                  <button id="minus-gap-btn">-</button>
+                </div>
               </div>
             </div>
           </article>
-        </div>
-        <div id="third-row">
           <article id="flex">
             <img src="src/assets/images/flexibility.png" id="flex-img" class="feature-img">
             <h3 id="flex-heading" class="feature-heading">
@@ -361,7 +311,7 @@
             </div>
           </article>
         </div>
-        <div id="fourth-row">
+        <div id="third-row">
           <article id="buttons">
             <img src="src/assets/images/panic-button.png" id="button-img" class="feature-img">
             <h3 id="button-heading" class="feature-heading">
