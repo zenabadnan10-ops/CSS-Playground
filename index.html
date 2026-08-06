@@ -186,9 +186,9 @@
               See how CSS Grids create responsive galleries
             </p>
             <div id="grid-plus">
-              <button id="plus-rows-btn">+</button>
-              <span id="rows">3</span>
               <button id="minus-rows-btn">-</button>
+              <span id="rows">3</span>
+              <button id="plus-rows-btn">+</button>
             </div>
             <div id="grid-minus">
               <div id="grid-minus-btn">
@@ -227,86 +227,105 @@
                   </div>
                 </div>
                 <div id="grid-gap-btn">
-                  <button id="plus-gap-btn">+</button>
-                  <span id="gap">1px</span>
                   <button id="minus-gap-btn">-</button>
+                  <span id="gap">1px</span>
+                  <button id="plus-gap-btn">+</button>
                 </div>
               </div>
             </div>
           </article>
           <article id="flex">
-            <img src="src/assets/images/flexibility.png" id="flex-img" class="feature-img">
-            <h3 id="flex-heading" class="feature-heading">
-              Flex Factory
-            </h3>
-            <p id="flex-desc">
-              Rearrange your playlist by experimenting with Flexbox and see how layouts adapt in real time
+            <div class="img-text">
+              <img src="src/assets/images/flexibility.png" id="flex-img" class="feature-img">
+              <h3 id="flex-heading" class="feature-heading">
+                Flex Factory
+              </h3>
+            </div>
+            <p id="flex-desc" class="feature-desc">
+              See how layouts adapt in real time with Flexbox
             </p>
             <div id="flex-controls">
-              <select id="direction-options">
-                <option id="row" value="row">Row</option>
-                <option id="column" value="column">Column</option>
-              </select>
-              <select id="justify">
-                <option id="space-between" value="space-between">Space Between</option>
-                <option id="start" value="start">Start</option>
-                <option id="centre" value="centre">Centre</option>
-                <option id="end" value="end">End</option>
-                <option id="space-evenly" value="space-evenly">Space Evenly</option>
-              </select>
-              <select id="wrap">
-                <option id="on" value="on">On</option>
-                <option id="off" value="off">Off</option>
-              </select>
+              <button id="flex-row-btn">ROW</button>
+              <button id="flex-column-btn">COLUMN</button>
             </div>
             <div id="playlist">
               <div class="song">
                 <div class="song-container">
                   <img src="src/assets/images/download (17).webp" class="song-img">
                 </div>
-                <p class="title">Fragments</p>
-                <p class="artist">Glass Harbor</p>
-                <span class="heart">❤️</span>
-                <div class="duration-line">
-                  <div class="circle"></div>
+                <div class="title-heart">
+                  <div class="title-artist">
+                    <p class="title">Fragments</p>
+                    <p class="artist">Glass Harbor</p>
+                  </div>
+                  <span class="heart">❤️</span>
                 </div>
-                <span class="start">0:08</span>
-                <span class="end">3:41</span>
-                <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
-                <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
-                <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
+                <div class="duration-line">
+                  <div class="duration" id="duration1">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+                <div class="time-stamp">
+                  <span class="start">0:08</span>
+                  <span class="end">3:41</span>
+                </div>
+                <div class="song-btns">
+                  <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
+                  <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
+                  <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
+                </div>
               </div>
               <div class="song">
                 <div class="song-container">
                   <img src="src/assets/images/u_x1tg7rq4fj-music-7687732_1920.png" class="song-img">
                 </div>
-                <p class="title">Diamonds in the Dark</p>
-                <p class="artist">Violet Lane</p>
-                <span class="heart">❤️</span>
-                <div class="duration-line">
-                  <div class="circle"></div>
+                <div class="title-heart">
+                  <div class="title-artist">
+                    <p class="title">Diamonds</p>
+                    <p class="artist">Violet Lane</p>
+                  </div>
+                  <span class="heart">❤️</span>
                 </div>
-                <span class="start">1:12</span>
-                <span class="end">3:28</span>
-                <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
-                <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
-                <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
+                <div class="duration-line">
+                  <div class="duration" id="duration2">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+                <div class="time-stamp">
+                  <span class="start">1:12</span>
+                  <span class="end">3:28</span>
+                </div>
+                <div class="song-btns">
+                  <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
+                  <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
+                  <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
+                </div>
               </div>
               <div class="song">
                 <div class="song-container">
                   <img src="src/assets/images/hauntsync-country-8955755.png" class="song-img">
                 </div>
-                <p class="title">Cowboy in the Desert</p>
-                <p class="artist">Mason Cole</p>
-                <span class="heart">❤️</span>
-                <div class="duration-line">
-                  <div class="circle"></div>
+                <div class="title-heart">
+                  <div class="title-artist">
+                    <p class="title">Cowboys</p>
+                    <p class="artist">Mason Cole</p>  
+                  </div>
+                  <span class="heart">❤️</span>
                 </div>
-                <span class="start">0:35</span>
-                <span class="end">4:12</span>
-                <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
-                <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
-                <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
+                <div class="duration-line">
+                  <div class="duration" id="duration3">
+                    <div class="circle"></div>
+                  </div>
+                </div>
+                <div class="time-stamp">
+                  <span class="start">0:35</span>
+                  <span class="end">4:12</span>
+                </div>
+                <div class="song-btns">
+                  <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
+                  <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
+                  <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
+                </div>
               </div>
             </div>
           </article>
