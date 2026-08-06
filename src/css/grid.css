@@ -78,7 +78,7 @@
 
 .section {
     width: 100%;
-    height: 100px;
+    height: 105px;
     border: none;
     border-radius: var(--large-radius);
     overflow: hidden;
