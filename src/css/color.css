@@ -1,0 +1,105 @@
+#color {
+    padding: var(--medium-spacing);
+    background-color: var(--muted-text-color);
+    border: 1px solid var(--muted-text-color);
+    border-radius: var(--medium-radius);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding-bottom: 25px;
+    width: 50%;
+}
+
+#price-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#color-controls {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.color-img {
+    width: 100px;
+    height: 100px;
+}
+
+.color-btn {
+    border: none;
+    border-radius: var(--circle-radius);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#blossom-btn {
+    background-color: pink;
+}
+
+#color-preview {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 242, 242);
+    border: none;
+    border-radius: var(--medium-radius);
+    margin-top: 20px;
+}
+
+#product-img {
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: var(--medium-radius);
+    margin: 10px;
+}
+
+#product-name {
+    font-family: sans-serif;
+    letter-spacing: 0.1px;
+    color: black;
+    font-size: 28px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#preview-horizontal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px;
+}
+
+#price {
+    font-family: sans-serif;
+    letter-spacing: 0.1px;
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#product-desc {
+    font-family: sans-serif;
+    letter-spacing: 0.1px;
+    color: rgb(37, 37, 37);
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#product-btn {
+    background-color: var(--body-text-color);
+    color: var(--background-color);
+    font-family: var(--main-font);
+    font-size: var(--small-text);
+    letter-spacing: 0.1rem;
+    padding: 10px 20px;
+    border: 1px solid var(--body-text-color);
+    border-radius: var(--large-radius);
+    margin-top: 20px;
+}

@@ -63,319 +63,328 @@
         </div>
       </section>
       <section id="features">
-        <article id="color">
-          <img src="src/assets/images/palette.png" id="palette-img" class="feature-img">
-          <h3 id="color-heading" class="feature-heading">
-            Color Lab
-          </h3>
-          <p id="color-desc">
-            See how colors change a User Interface
-          </p>
-          <div id="color-controls">
-            <button id="ocean-btn">
-            <div id="ocean-color">
-              <img src="src/assets/images/ocean.png" id="ocean-img" class="color-img">
+        <div id="first-row">
+          <article id="color">
+            <div class="img-text">
+              <img src="src/assets/images/palette.png" id="palette-img" class="feature-img">
+              <h3 id="color-heading" class="feature-heading">
+                Color Lab
+              </h3>
             </div>
-            </button>
-            <button id="forest-btn">
-              <div id="forest-color">
-                <img src="src/assets/images/forest.png" id="forest-img" class="color-img">
+            <p id="color-desc" class="feature-desc">
+              See how colors change a User Interface
+            </p>
+            <div id="color-controls">
+              <button id="ocean-btn" class="color-btn">
+                <img src="src/assets/images/ocean.png" id="ocean-img" class="color-img">
+              </button>
+              <button id="forest-btn" class="color-btn">
+                  <img src="src/assets/images/forest.png" id="forest-img" class="color-img">
+              </button>
+              <button id="blossom-btn" class="color-btn">
+                  <img src="src/assets/images/sakura.png" id="sakura-img" class="color-img">
+              </button>
+            </div>
+            <div id="color-preview">
+              <img id="product-img" src="src/assets/images/OIP (23).webp">
+              <div id="preview-horizontal">
+                <div id="price-div">
+                  <h3 id="product-name">
+                    Headphones
+                  </h3>
+                  <p id="price">$55</p>
+                </div>
+                <p id="product-desc">
+                  Designed for comfort and performance, these wireless headphones deliver rich sound, deep bass and reliable battery life wherever you go.
+                </p>
+                <button id="product-btn">
+                  Add To Cart
+                </button>
               </div>
-            </button>
-            <button id="blossom-btn">
-              <div id="blossom-color">
-                <img src="src/assets/images/sakura.png" id="sakura-img" class="color-img">
-              </div>
-            </button>
-          </div>
-          <div id="color-preview">
-            <img id="product-img" src="src/assets/images/OIP (23).webp">
-            <h3 id="product-name">
-              Headphones
+            </div>
+          </article>
+          <article id="typography">
+            <div class="img-text">
+              <img src="src/assets/images/font.png" id="font-img" class="feature-img">
+              <h3 id="typo-heading" class="feature-heading">
+                Font Studio
+              </h3>
+            </div>
+            <p id="typo-desc">
+              See how typography affects readability
+            </p>
+            <div id="typo-controls">
+              <p id="font-label">Font: </p>
+              <select id="font-options">
+                <option id="" value=""></option>
+                <option id="poppins" value="poppins">Poppins</option>
+                <option id="roboto" value="roboto">Roboto</option>
+                <option id="montserrat" value="montserrat">Montserrat</option>
+                <option id="playfair-display" value="playfair-display">Playfair Display</option>
+              </select>
+              <p id="weight-label">Weight: </p>
+              <select id="weight-options">
+                <option id="" value=""></option>
+                <option id="light" value="light">Light</option>
+                <option id="regular" value="regular">Regular</option>
+                <option id="medium" value="medium">Medium</option>
+                <option id="semi-bold" value="semi-bold">Semi Bold</option>
+                <option id="bold" value="bold">Bold</option>
+              </select>
+              <p id="size-label">Size: </p>
+              <select id="size-options">
+                <option id="" value=""></option>
+                <option id="14" value="14">14px</option>
+                <option id="16" value="16">16px</option>
+                <option id="20" value="20">20px</option>
+                <option id="24" value="24">24px</option>
+                <option id="32" value="32">32px</option>
+                <option id="40" value="40">40px</option>
+              </select>
+              <p id="spacing-label">Spacing: </p>
+              <select id="weight-options">
+                <option id="" value=""></option>
+                <option id="1" value="1">1px</option>
+                <option id="2" value="2">2px</option>
+                <option id="4" value="4">4px</option>
+                <option id="8" value="8">8px</option>
+              </select>
+            </div>
+            <div id="typo-preview">
+              <p id="typo-preview-heading">
+                Experiment with Typography
+              </p>
+              <p id="typo-preview-desc">
+                Every choice you make changes this preview. Experiment with different combinations until you find a style that feels just right.
+              </p>
+            </div>
+          </article>
+        </div>
+        <div id="second-row">
+          <article id="grid">
+            <img src="src/assets/images/pixels.png" id="grid-img" class="feature-img">
+            <h3 id="grid-heading" class="feature-heading">
+              Grid Builder
             </h3>
-            <p id="product-desc">
-              Designed for comfort and performance, these wireless headphones deliver rich sound, deep bass and reliable battery life wherever you go.
+            <p id="grid-desc">
+              See how CSS Grids create responsive galleries
             </p>
-            <p id="stars">⭐⭐⭐⭐⭐</p>
-            <p id="price">$55</p>
-            <button id="product-btn">
-              Add To Cart
-            </button>
-          </div>
-        </article>
-        <article id="typography">
-          <img src="src/assets/images/font.png" id="font-img" class="feature-img">
-          <h3 id="typo-heading" class="feature-heading">
-            Font Studio
-          </h3>
-          <p id="typo-desc">
-            See how typography affects readability
-          </p>
-          <div id="typo-controls">
-            <p id="font-label">Font: </p>
-            <select id="font-options">
-              <option id="" value=""></option>
-              <option id="poppins" value="poppins">Poppins</option>
-              <option id="roboto" value="roboto">Roboto</option>
-              <option id="montserrat" value="montserrat">Montserrat</option>
-              <option id="playfair-display" value="playfair-display">Playfair Display</option>
-            </select>
-            <p id="weight-label">Weight: </p>
-            <select id="weight-options">
-              <option id="" value=""></option>
-              <option id="light" value="light">Light</option>
-              <option id="regular" value="regular">Regular</option>
-              <option id="medium" value="medium">Medium</option>
-              <option id="semi-bold" value="semi-bold">Semi Bold</option>
-              <option id="bold" value="bold">Bold</option>
-            </select>
-            <p id="size-label">Size: </p>
-            <select id="size-options">
-              <option id="" value=""></option>
-              <option id="14" value="14">14px</option>
-              <option id="16" value="16">16px</option>
-              <option id="20" value="20">20px</option>
-              <option id="24" value="24">24px</option>
-              <option id="32" value="32">32px</option>
-              <option id="40" value="40">40px</option>
-            </select>
-            <p id="spacing-label">Spacing: </p>
-            <select id="weight-options">
-              <option id="" value=""></option>
-              <option id="1" value="1">1px</option>
-              <option id="2" value="2">2px</option>
-              <option id="4" value="4">4px</option>
-              <option id="8" value="8">8px</option>
-            </select>
-          </div>
-          <div id="typo-preview">
-            <p id="typo-preview-heading">
-              Experiment with Typography
+            <div id="grid-controls">
+              <button id="plus-rows-btn">+</button>
+              <span id="crows">3</span>
+              <button id="minus-rows-btn">-</button>
+              <button id="plus-column-btn">+</button>
+              <span id="columns">3</span>
+              <button id="minus-column-btn">-</button>
+              <button id="plus-gap-btn">+</button>
+              <span id="gap">15px</span>
+              <button id="minus-gap-btn">-</button>
+              <div id="grid-preview">
+                <h2 id="news-name">
+                  The Orange Times
+                </h2>
+                <h3 id="news-desc">
+                  Fresh News. Fresh Citrus.
+                </h3>
+                <h3 id="featured-heading">
+                  Featured Story
+                </h3>
+                <img src="src/assets/images/download (14).webp" id="featured-img">
+                <h2 id="featured-name">
+                  The Great Orange Harvest Begins
+                </h2>
+                <p id="featured-desc">
+                  Farmers celebrate a record-breaking citrus season as orchards across the region produce their sweetest oranges yet.
+                </p>
+                <h3 id="citrus-heading">
+                  Citrus Spotlight
+                </h3>
+                <h2 id="citrus-name">
+                  5 Reasons Oranges are a Superfruit
+                </h2>
+                <p id="citrus-desc">
+                  Discover why oranges remain one of the healthiest and most popular fruits in the world.
+                </p>
+                <h3 id="juice-heading">
+                  Fresh Squeezed
+                </h3>
+                <img src="src/assets/images/OIP (24).webp" id="juice-img">
+                <h2 id="juice-name">
+                  Fresh Juice Trends in 2026
+                </h2>
+                <p id="juice-desc">
+                  From classic orange juice to sparkling citrus blends, explore the newest refreshing drinks.
+                </p>
+                <h3 id="kitchen-heading">
+                  Kitchen Corner
+                </h3>
+                <img src="src/assets/images/download (16).webp" id="kitchen-img">
+                <h2 id="kitchen-name">
+                  The Orange Cake Everyone is Talking About
+                </h2>
+                <p id="kitchen-desc">
+                  Bakers are putting citrus at the center of their newest deserts.
+                </p>
+                <h3 id="orchard-heading">
+                  Orchard Watch
+                </h3>
+                <h2 id="orchard-name">
+                  A Walk Through The World's Largest Orange Grove
+                </h2>
+                <p id="orchard-desc">
+                  Explore how thousands of orange trees are grown and harvested.
+                </p>
+                <h3 id="vitamin-heading">
+                  Vitamin Vault
+                </h3>
+                <h2 id="vitamin-name">
+                  One Orange, Countless Benefits
+                </h2>
+                <p id="vitamin-desc">
+                  Learn how Vitamin C and antioxidants make oranges a nutritional powerhouse.
+                </p>
+                <h3 id="festival-heading">
+                  Festival Square
+                </h3>
+                <h2 id="festival-name">
+                  The Annual Orange Festival Returns
+                </h2>
+                <p id="festival-desc">
+                  Music, food, games and everything citrus comes together for a weekend of celebration.
+                </p>
+                <h3 id="odd-heading">
+                  Orange Oddities
+                </h3>
+                <h2 id="odd-name">
+                  The Color Was Named After The Fruit!
+                </h2>
+                <p id="odd-desc">
+                  Discover surprising facts and fun trivia about oranges.
+                </p>
+                <h3 id="globe-heading">
+                  Around The Orchard
+                </h3>
+                <img src="src/assets/images/download (15).webp" id="globe-img">
+                <h2 id="globe-name">
+                  How The World Enjoys Oranges
+                </h2>
+                <p id="globe-desc">
+                  From fresh fruit to marmalade, explore citrus traditions from around the globe.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div id="third-row">
+          <article id="flex">
+            <img src="src/assets/images/flexibility.png" id="flex-img" class="feature-img">
+            <h3 id="flex-heading" class="feature-heading">
+              Flex Factory
+            </h3>
+            <p id="flex-desc">
+              Rearrange your playlist by experimenting with Flexbox and see how layouts adapt in real time
             </p>
-            <p id="typo-preview-desc">
-              Every choice you make changes this preview. Experiment with different combinations until you find a style that feels just right.
+            <div id="flex-controls">
+              <select id="direction-options">
+                <option id="row" value="row">Row</option>
+                <option id="column" value="column">Column</option>
+              </select>
+              <select id="justify">
+                <option id="space-between" value="space-between">Space Between</option>
+                <option id="start" value="start">Start</option>
+                <option id="centre" value="centre">Centre</option>
+                <option id="end" value="end">End</option>
+                <option id="space-evenly" value="space-evenly">Space Evenly</option>
+              </select>
+              <select id="wrap">
+                <option id="on" value="on">On</option>
+                <option id="off" value="off">Off</option>
+              </select>
+            </div>
+            <div id="playlist">
+              <div class="song">
+                <div class="song-container">
+                  <img src="src/assets/images/download (17).webp" class="song-img">
+                </div>
+                <p class="title">Fragments</p>
+                <p class="artist">Glass Harbor</p>
+                <span class="heart">❤️</span>
+                <div class="duration-line">
+                  <div class="circle"></div>
+                </div>
+                <span class="start">0:08</span>
+                <span class="end">3:41</span>
+                <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
+                <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
+                <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
+              </div>
+              <div class="song">
+                <div class="song-container">
+                  <img src="src/assets/images/u_x1tg7rq4fj-music-7687732_1920.png" class="song-img">
+                </div>
+                <p class="title">Diamonds in the Dark</p>
+                <p class="artist">Violet Lane</p>
+                <span class="heart">❤️</span>
+                <div class="duration-line">
+                  <div class="circle"></div>
+                </div>
+                <span class="start">1:12</span>
+                <span class="end">3:28</span>
+                <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
+                <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
+                <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
+              </div>
+              <div class="song">
+                <div class="song-container">
+                  <img src="src/assets/images/hauntsync-country-8955755.png" class="song-img">
+                </div>
+                <p class="title">Cowboy in the Desert</p>
+                <p class="artist">Mason Cole</p>
+                <span class="heart">❤️</span>
+                <div class="duration-line">
+                  <div class="circle"></div>
+                </div>
+                <span class="start">0:35</span>
+                <span class="end">4:12</span>
+                <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
+                <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
+                <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div id="fourth-row">
+          <article id="buttons">
+            <img src="src/assets/images/panic-button.png" id="button-img" class="feature-img">
+            <h3 id="button-heading" class="feature-heading">
+              Magic Button
+            </h3>
+            <p id="button-desc">
+              Every click transforms the button into a brand-new design.
             </p>
-          </div>
-        </article>
-        <article id="grid">
-          <img src="src/assets/images/pixels.png" id="grid-img" class="feature-img">
-          <h3 id="grid-heading" class="feature-heading">
-            Grid Builder
-          </h3>
-          <p id="grid-desc">
-            See how CSS Grids create responsive galleries
-          </p>
-          <div id="grid-controls">
-            <button id="plus-rows-btn">+</button>
-            <span id="crows">3</span>
-            <button id="minus-rows-btn">-</button>
-            <button id="plus-column-btn">+</button>
-            <span id="columns">3</span>
-            <button id="minus-column-btn">-</button>
-            <button id="plus-gap-btn">+</button>
-            <span id="gap">15px</span>
-            <button id="minus-gap-btn">-</button>
-            <div id="grid-preview">
-              <h2 id="news-name">
-                The Orange Times
-              </h2>
-              <h3 id="news-desc">
-                Fresh News. Fresh Citrus.
-              </h3>
-              <h3 id="featured-heading">
-                Featured Story
-              </h3>
-              <img src="src/assets/images/download (14).webp" id="featured-img">
-              <h2 id="featured-name">
-                The Great Orange Harvest Begins
-              </h2>
-              <p id="featured-desc">
-                Farmers celebrate a record-breaking citrus season as orchards across the region produce their sweetest oranges yet.
-              </p>
-              <h3 id="citrus-heading">
-                Citrus Spotlight
-              </h3>
-              <h2 id="citrus-name">
-                5 Reasons Oranges are a Superfruit
-              </h2>
-              <p id="citrus-desc">
-                Discover why oranges remain one of the healthiest and most popular fruits in the world.
-              </p>
-              <h3 id="juice-heading">
-                Fresh Squeezed
-              </h3>
-              <img src="src/assets/images/OIP (24).webp" id="juice-img">
-              <h2 id="juice-name">
-                Fresh Juice Trends in 2026
-              </h2>
-              <p id="juice-desc">
-                From classic orange juice to sparkling citrus blends, explore the newest refreshing drinks.
-              </p>
-              <h3 id="kitchen-heading">
-                Kitchen Corner
-              </h3>
-              <img src="src/assets/images/download (16).webp" id="kitchen-img">
-              <h2 id="kitchen-name">
-                The Orange Cake Everyone is Talking About
-              </h2>
-              <p id="kitchen-desc">
-                Bakers are putting citrus at the center of their newest deserts.
-              </p>
-              <h3 id="orchard-heading">
-                Orchard Watch
-              </h3>
-              <h2 id="orchard-name">
-                A Walk Through The World's Largest Orange Grove
-              </h2>
-              <p id="orchard-desc">
-                Explore how thousands of orange trees are grown and harvested.
-              </p>
-              <h3 id="vitamin-heading">
-                Vitamin Vault
-              </h3>
-              <h2 id="vitamin-name">
-                One Orange, Countless Benefits
-              </h2>
-              <p id="vitamin-desc">
-                Learn how Vitamin C and antioxidants make oranges a nutritional powerhouse.
-              </p>
-              <h3 id="festival-heading">
-                Festival Square
-              </h3>
-              <h2 id="festival-name">
-                The Annual Orange Festival Returns
-              </h2>
-              <p id="festival-desc">
-                Music, food, games and everything citrus comes together for a weekend of celebration.
-              </p>
-              <h3 id="odd-heading">
-                Orange Oddities
-              </h3>
-              <h2 id="odd-name">
-                The Color Was Named After The Fruit!
-              </h2>
-              <p id="odd-desc">
-                Discover surprising facts and fun trivia about oranges.
-              </p>
-              <h3 id="globe-heading">
-                Around The Orchard
-              </h3>
-              <img src="src/assets/images/download (15).webp" id="globe-img">
-              <h2 id="globe-name">
-                How The World Enjoys Oranges
-              </h2>
-              <p id="globe-desc">
-                From fresh fruit to marmalade, explore citrus traditions from around the globe.
-              </p>
+            <div id="buttons-preview">
+              <button id="magic-button">
+                Click Me
+              </button>
+              <p id="styles-text"><span id="styles-unlocked">1</span> / 8</p>
             </div>
-          </div>
-        </article>
-        <article id="flex">
-          <img src="src/assets/images/flexibility.png" id="flex-img" class="feature-img">
-          <h3 id="flex-heading" class="feature-heading">
-            Flex Factory
-          </h3>
-          <p id="flex-desc">
-            Rearrange your playlist by experimenting with Flexbox and see how layouts adapt in real time
-          </p>
-          <div id="flex-controls">
-            <select id="direction-options">
-              <option id="row" value="row">Row</option>
-              <option id="column" value="column">Column</option>
-            </select>
-            <select id="justify">
-              <option id="space-between" value="space-between">Space Between</option>
-              <option id="start" value="start">Start</option>
-              <option id="centre" value="centre">Centre</option>
-              <option id="end" value="end">End</option>
-              <option id="space-evenly" value="space-evenly">Space Evenly</option>
-            </select>
-            <select id="wrap">
-              <option id="on" value="on">On</option>
-              <option id="off" value="off">Off</option>
-            </select>
-          </div>
-          <div id="playlist">
-            <div class="song">
-              <div class="song-container">
-                <img src="src/assets/images/download (17).webp" class="song-img">
-              </div>
-              <p class="title">Fragments</p>
-              <p class="artist">Glass Harbor</p>
-              <span class="heart">❤️</span>
-              <div class="duration-line">
-                <div class="circle"></div>
-              </div>
-              <span class="start">0:08</span>
-              <span class="end">3:41</span>
-              <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
-              <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
-              <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
+          </article>
+          <article id="animation">
+            <img src="src/assets/images/animation.png" id="animation-img" class="feature-img">
+            <h3 id="animation-heading" class="feature-heading">
+              Motion Control
+            </h3>
+            <p id="animation-desc">
+              Initiate the launch sequence and watch the rocket soar into space using smooth CSS animations
+            </p>
+            <div id="animation-preview">
+              <img src="src/assets/images/rocket.png" id="rocket">
+              <button id="launch-btn">
+                Launch
+              </button>
             </div>
-            <div class="song">
-              <div class="song-container">
-                <img src="src/assets/images/u_x1tg7rq4fj-music-7687732_1920.png" class="song-img">
-              </div>
-              <p class="title">Diamonds in the Dark</p>
-              <p class="artist">Violet Lane</p>
-              <span class="heart">❤️</span>
-              <div class="duration-line">
-                <div class="circle"></div>
-              </div>
-              <span class="start">1:12</span>
-              <span class="end">3:28</span>
-              <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
-              <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
-              <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
-            </div>
-            <div class="song">
-              <div class="song-container">
-                <img src="src/assets/images/hauntsync-country-8955755.png" class="song-img">
-              </div>
-              <p class="title">Cowboy in the Desert</p>
-              <p class="artist">Mason Cole</p>
-              <span class="heart">❤️</span>
-              <div class="duration-line">
-                <div class="circle"></div>
-              </div>
-              <span class="start">0:35</span>
-              <span class="end">4:12</span>
-              <span class="prev"><img src="src/assets/images/previous.png" class="prev-img"></span>
-              <span class="play"><img src="src/assets/images/pause.png" class="pause-img"></span>
-              <span class="next"><img src="src/assets/images/next-button.png" class="next-img"></span>
-            </div>
-          </div>
-        </article>
-        <article id="buttons">
-          <img src="src/assets/images/panic-button.png" id="button-img" class="feature-img">
-          <h3 id="button-heading" class="feature-heading">
-            Magic Button
-          </h3>
-          <p id="button-desc">
-            Every click transforms the button into a brand-new design.
-          </p>
-          <div id="buttons-preview">
-            <button id="magic-button">
-              Click Me
-            </button>
-            <p id="styles-text"><span id="styles-unlocked">1</span> / 8</p>
-          </div>
-        </article>
-        <article id="animation">
-          <img src="src/assets/images/animation.png" id="animation-img" class="feature-img">
-          <h3 id="animation-heading" class="feature-heading">
-            Motion Control
-          </h3>
-          <p id="animation-desc">
-            Initiate the launch sequence and watch the rocket soar into space using smooth CSS animations
-          </p>
-          <div id="animation-preview">
-            <img src="src/assets/images/rocket.png" id="rocket">
-            <button id="launch-btn">
-              Launch
-            </button>
-          </div>
-        </article>
+          </article>
+        </div>
       </section>
     </main>
     <footer>
