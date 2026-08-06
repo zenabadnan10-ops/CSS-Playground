@@ -1,0 +1,23 @@
+/* eslint-disable css/no-invalid-properties */
+footer {
+    background-color: var(--muted-text-color);
+    padding: var(--extra-large-spacing);
+    width: 100%;
+    border: 1px solid var(--muted-text-color);
+    border-top-left-radius: var(--medium-radius);
+    border-top-right-radius: var(--medium-radius);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#footer-title, #footer-text, #github-link, #end-text {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-size: var(--large-text);
+}
+
+#footer-text, #github-link, #end-text {
+    font-size: var(--small-text);
+}
