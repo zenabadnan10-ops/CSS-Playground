@@ -132,3 +132,81 @@
     background-color: black;
     transform: scale(0.98) translateY(2px);
 }
+
+#color-preview.ocean-theme {
+    background-color: rgb(220, 220, 255);
+}
+
+#color-preview.ocean-theme #product-name, 
+#color-preview.ocean-theme #price {
+    color: rgb(1, 1, 138);
+}
+
+#color-preview.ocean-theme #product-desc {
+    color: rgb(6, 6, 217);
+}
+
+#color-preview.ocean-theme #product-btn {
+    background-color: rgb(1, 1, 138);
+    border: none;
+}
+
+#color-preview.ocean-theme #product-btn:hover {
+    background-color: rgb(31, 31, 168);
+}
+
+#color-preview.ocean-theme #product-btn:active {
+    background-color: rgb(0, 0, 114);
+}
+
+#color-preview.forest-theme {
+    background-color: rgb(208, 255, 208);
+}
+
+#color-preview.forest-theme #product-name, 
+#color-preview.forest-theme #price {
+    color: rgb(1, 117, 1);
+}
+
+#color-preview.forest-theme #product-desc {
+    color: rgb(0, 159, 0);
+}
+
+#color-preview.forest-theme #product-btn {
+    background-color: rgb(1, 117, 1);
+    border: none;
+}
+
+#color-preview.forest-theme #product-btn:hover {
+    background-color: rgb(1, 183, 1);;
+}
+
+#color-preview.forest-theme #product-btn:active {
+    background-color: rgb(0, 93, 0);;
+}
+
+#color-preview.blossom-theme {
+    background-color: #ffe6ea;
+}
+
+#color-preview.blossom-theme #product-name, 
+#color-preview.blossom-theme #price {
+    color: rgb(255, 117, 140);
+}
+
+#color-preview.blossom-theme #product-desc {
+    color: rgb(254, 133, 153);
+}
+
+#color-preview.blossom-theme #product-btn {
+    background-color: rgb(255, 117, 140);
+    border: none;
+}
+
+#color-preview.blossom-theme #product-btn:hover {
+    background-color: rgb(245, 142, 159);
+}
+
+#color-preview.blossom-theme #product-btn:active {
+    background-color: rgb(250, 86, 114);
+}
