@@ -72,4 +72,34 @@
     cursor: pointer;
     padding: 10px 16px;
     margin-bottom: -70px;
+    transition: transform var(--normal-transition), background-color var(--slow-transition);
+}
+
+#launch-btn:hover {
+    transform: scale(1.05);
+    background-color: #fe7c19; 
+}
+
+#launch-btn:active {
+    transform: scale(0.98);
+    background-color: #d25c02; 
+}
+
+#rocket-div.rocket-launching {
+    animation: rocket-launch 2s ease-in-out forwards;
+}
+
+@keyframes rocket-launch {
+    0% {
+        transform: translateX(-50%) translateY(0);
+        opacity: 1;
+    }
+    85% {
+        transform: translateX(-50%) translateY(-160px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) translateY(-170px);
+        opacity: 0;
+    }
 }

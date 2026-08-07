@@ -39,6 +39,19 @@
     border-radius: var(--large-radius);
     cursor: pointer;
     text-align: center;
+    transition: background-color var(--normal-transition), border var(--normal-transition), transform var(--normal-transition);
+}
+
+#magic-btn:hover {
+    background-color: rgb(81, 81, 250);
+    border: 1px solid rgb(81, 81, 250);
+    transform: scale(1.1);
+}
+
+#magic-btn:active {
+    background-color: rgb(20, 20, 244);
+    border: 1px solid rgb(20, 20, 244);
+    transform: scale(0.98) translateY(-2px);
 }
 
 #styles-text {

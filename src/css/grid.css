@@ -24,6 +24,17 @@
     font-size: var(--extra-large-text);
     padding: 10px 16px;
     cursor: pointer;
+    transition: transform var(--normal-transition), background-color var(--slow-transition);
+}
+
+#plus-rows-btn:hover, #minus-rows-btn:hover, #plus-column-btn:hover, #minus-column-btn:hover, #plus-gap-btn:hover, #minus-gap-btn:hover {
+    transform: scale(1.05);
+    background-color: #fe7c19; 
+}
+
+#plus-rows-btn:active, #minus-rows-btn:active, #plus-column-btn:active, #minus-column-btn:active, #plus-gap-btn:active, #minus-gap-btn:active {
+    transform: scale(0.98);
+    background-color: #d25c02; 
 }
 
 #rows, #columns, #gap {

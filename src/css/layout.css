@@ -46,3 +46,11 @@
     width: 70px;
     height: 70px;
 }
+
+article {
+    transition: transform var(--fast-transition);
+}
+
+article:hover {
+    transform: scale(1.01);
+}

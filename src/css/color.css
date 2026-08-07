@@ -31,6 +31,12 @@
 .color-img {
     width: 100px;
     height: 100px;
+    transition: transform var(--normal-transition);
+    cursor: pointer;
+}
+
+.color-img:hover {
+    transform: scale(1.05);
 }
 
 .color-btn {
@@ -38,6 +44,11 @@
     border-radius: var(--circle-radius);
     cursor: pointer;
     margin-top: 10px;
+    transition: transform var(--slow-transition);
+}
+
+.color-btn:active {
+    transform: scale(0.98) translateY(2px);
 }
 
 #blossom-btn {
@@ -51,6 +62,11 @@
     border: none;
     border-radius: var(--medium-radius);
     margin-top: 20px;
+    transition: transform var(--slow-transition);
+}
+
+#color-preview:hover {
+    transform: scale(1.01);
 }
 
 #product-img {
@@ -103,4 +119,17 @@
     border: 1px solid var(--body-text-color);
     border-radius: var(--large-radius);
     margin-top: 20px;
+    transition: background-color var(--normal-transition), transform var(--normal-transition), box-shadow var(--normal-transition);    
+    cursor: pointer;
+}
+
+#product-btn:hover {
+    background-color: rgb(14, 14, 14);
+    transform: scale(1.03);
+    box-shadow: var(--large-shadow);
+}
+
+#product-btn:active {
+    background-color: black;
+    transform: scale(0.98) translateY(2px);
 }

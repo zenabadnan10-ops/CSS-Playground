@@ -22,6 +22,17 @@
     border-radius: var(--circle-radius);
     font-size: var(--extra-large-text);
     cursor: pointer;
+    transition: transform var(--normal-transition), background-color var(--slow-transition);
+}
+
+#flex-row-btn:hover, #flex-column-btn:hover {
+    transform: scale(1.05);
+    background-color: #fe7c19; 
+}
+
+#flex-row-btn:active, #flex-column-btn:active {
+    transform: scale(0.98);
+    background-color: #d25c02; 
 }
 
 #flex-controls {
@@ -54,7 +65,12 @@
     padding: 10px;
     align-items: center;
     text-align: left;
+    transition: transform var(--normal-transition);
     font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.song:hover {
+    transform: scale(1.02);
 }
 
 .song-container {
