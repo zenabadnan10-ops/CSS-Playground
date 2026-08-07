@@ -16,7 +16,6 @@ header {
     border: 1px solid var(--muted-text-color);
     border-top-left-radius: var(--medium-radius);
     border-top-right-radius: var(--medium-radius);
-    margin: 10px;
     margin-bottom: 0px;
 }
 
@@ -72,7 +71,6 @@ ul {
     border: 1px solid var(--muted-text-color);
     border-bottom-left-radius: var(--medium-radius);
     border-bottom-right-radius: var(--medium-radius);
-    margin: 10px;
     margin-top: 0px;
 }
 
