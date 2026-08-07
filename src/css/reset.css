@@ -1,14 +1,30 @@
 html {
     scroll-behavior: smooth;
-    max-width: var(--max-width);
+}
+
+html, body {
+    width: 100%;
+}
+
+.page {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     cursor: default;
 }
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+
 
 ul {
     list-style: none;

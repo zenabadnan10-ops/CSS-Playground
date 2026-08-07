@@ -6,7 +6,6 @@ footer {
     border: 1px solid var(--muted-text-color);
     border-top-left-radius: var(--medium-radius);
     border-top-right-radius: var(--medium-radius);
-    margin: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
